@@ -1,0 +1,18 @@
+main.name = "Pwnagotchi"
+main.lang = "en"
+main.whitelist = [
+  "MI RED WIFI",
+  "fo:od:ba:be:fo:od",
+  "fo:od:ba"
+]
+
+main.plugins.grid.enabled = true
+main.plugins.grid.report = true
+main.plugins.grid.exclude = [
+  "MI RED WIFI"
+]
+
+ui.display.enabled = true
+ui.display.type = "waveshare_3"
+ui.display.color = "black"
+ui.fps = 1
